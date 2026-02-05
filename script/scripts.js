@@ -24,3 +24,14 @@ for (i = 0; i < deletBtnList.length; i++) {
 }
 
 // add Checked symbol when click on a task item
+// Created Checked Btn and apppend it to each list item
+var taskNodeList = document.getElementsByTagName("LI");
+var i;
+const checkLogo = `
+<svg id="i-checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+    <path d="M2 20 L12 28 30 4" />
+</svg>
+`;
+for (i = 0; i < taskNodeList.length; i++) {
+    var 
+}
